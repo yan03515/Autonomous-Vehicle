@@ -5,5 +5,5 @@ The purpose of this README is not to provide detailed source-code documentation,
 
 
 <p align="center">
-  <img src="imagesAutonomous%20Vehicle%20Control%20System%20Workflow.png" width="900">
+  <img src="images/Autonomous%20Vehicle%20Control%20System%20Workflow.png" width="900">
 </p>
