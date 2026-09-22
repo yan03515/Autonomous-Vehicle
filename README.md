@@ -8,3 +8,5 @@ The purpose of this README is not to provide detailed source-code documentation,
 <p align="center">
   <img src="images/Autonomous%20Vehicle%20Control%20System%20Workflow.png" width="900">
 </p>
+
+The workflow consists of three main stages: building the PC-side control program, configuring the FPGA, and running the vehicle control system. The control program is compiled in Visual Studio and deployed to the DE2i-150 host PC, while the FPGA project is compiled in Quartus Prime 16.1 Lite Edition and configured through USB-Blaster. During operation, keyboard commands are processed by the PC-side control program, sent to the FPGA through PCIe, converted into PWM/GPIO control signals, and then passed to the ESCON motor drivers to drive the four motors.
