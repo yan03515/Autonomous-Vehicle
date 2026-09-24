@@ -15,7 +15,7 @@ The workflow consists of three main stages: building the PC-side control program
 
 ### Vehicle Structure
 
-I modified the vehicle platform by replacing the original wheels with **8-inch Mecanum wheels**. The larger wheels are intended to improve the vehicle’s ability to pass over uneven pavement and small road irregularities, providing a more stable platform for future onboard sensors and autonomous navigation experiments.
+I modified the vehicle platform by replacing the original wheels with **8-inch Mecanum wheels**. The larger wheels are intended to improve the vehicle's ability to pass over uneven pavement and small road irregularities, with the goal of providing a more stable platform for future onboard sensors and autonomous navigation experiments.
 
 ### PC-side Control Program
 
