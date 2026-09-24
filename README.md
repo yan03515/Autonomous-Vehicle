@@ -62,7 +62,7 @@ Future development will focus on three main areas to support autonomous navigati
 
 ### 1. Mechanical Improvements
 
-Low-frequency vibrations generated during vehicle operation may affect the measurement quality of onboard sensors, particularly LiDAR and IMU.
+Road-induced vibrations during vehicle operation may affect the measurement quality of onboard sensors, particularly LiDAR and IMU.
 
 To address this issue, future modifications will include developing a **suspension and vibration isolation system**, referencing mechanical designs available on GrabCAD. Additionally, the **LiDAR mounting position will be raised** to reduce potential sensor occlusion and improve environmental coverage while maintaining structural stability.
 
