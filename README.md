@@ -51,3 +51,5 @@ During vehicle testing, one wheel initially failed to operate correctly. I syste
 </p>
 
 ### Testing
+
+![Vehicle Testing](images/vehicle_test.gif)
