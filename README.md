@@ -28,3 +28,26 @@ The program also reads encoder data from the FPGA for wheel-speed monitoring and
 Based on knowledge gained from related coursework, I reviewed the FPGA source code and hardware signal flow to understand the PCIe register mapping, PWM generation, and FPGA I/O configuration.
 
 During vehicle testing, one wheel initially failed to operate correctly. I systematically checked the control logic, FPGA signal path, and hardware connections, and eventually identified the issue as an FPGA pin-assignment problem. I then reassigned the corresponding FPGA output pins, recompiled the design in **Quartus Prime 16.1 Lite Edition**, programmed the FPGA, and successfully restored normal motor operation.
+
+## Vehicle Structure and Testing
+
+### Structure
+- Whole Vehicle
+
+<p align="center">
+  <img src="images/Whole%20Vehicle.png" width="900">
+</p>
+
+- Control Hardware
+
+<p align="center">
+  <img src="images/Control%20Hardware.png" width="900">
+</p>
+
+- 8-inch Mecanum Wheel
+
+<p align="center">
+  <img src="images/Mecanum%20Wheel.png" width="900">
+</p>
+
+### Testing
