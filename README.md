@@ -70,7 +70,7 @@ To address this issue, future modifications will include developing a **suspensi
 
 This vehicle will serve as the **real-world testing platform for my [Master-Project](https://github.com/yan03515/Master-Project)**, supporting the development and validation of autonomous navigation on the NTUST campus.
 
-The existing **PC-side control program** will be extended to receive navigation commands through **ROS**, replacing keyboard-only control and enabling autonomous operation. This will involve integrating navigation commands with the vehicle's motor control system and encoder feedback.
+The existing **PC-side control program** will be extended to receive navigation commands through **ROS**, replacing keyboard-only control and enabling autonomous operation. This will involve integrating navigation commands with the vehicle's motor control system and encoder feedback. This will require developing and validating a communication interface between the ROS-based navigation system on the Jetson Orin NX and the existing DE2i-150 control system.
 
 ### 3. Control System Optimization
 
