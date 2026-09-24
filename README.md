@@ -55,3 +55,27 @@ During vehicle testing, one wheel initially failed to operate correctly. I syste
 <p align="center">
   <img src="images/Vehicle%20Test.gif" width="500">
 </p>
+
+## Future Development for Autonomous Navigation
+
+Future development will focus on three main areas to support autonomous navigation and improve the vehicle's overall performance.
+
+### 1. Mechanical Improvements
+
+Low-frequency vibrations generated during vehicle operation may affect the measurement quality of onboard sensors, particularly LiDAR and IMU.
+
+To address this issue, future modifications will include developing a **suspension and vibration isolation system**, referencing mechanical designs available on GrabCAD. Additionally, the **LiDAR mounting position will be raised** to reduce potential sensor occlusion and improve environmental coverage while maintaining structural stability.
+
+### 2. Autonomous Navigation Integration
+
+This vehicle will serve as the **real-world testing platform for my [Master Project](https://github.com/yan03515/Master-Project)**, supporting the development and validation of autonomous navigation on the NTUST campus.
+
+The existing **PC-side control program** will be extended to receive navigation commands through **ROS**, replacing keyboard-only control and enabling autonomous operation. This will involve integrating navigation commands with the vehicle's motor control system and encoder feedback.
+
+### 3. Control System Optimization
+
+The system's real-time performance will be evaluated during autonomous navigation, including control latency, command response, and communication between the PC and FPGA.
+
+If performance bottlenecks are identified, the **PC-side control program** will be optimized, with modifications to the **low-level FPGA logic** considered where necessary.
+
+Additional safety mechanisms, such as emergency stopping, command timeouts, and velocity limits, may also be implemented as needed.
