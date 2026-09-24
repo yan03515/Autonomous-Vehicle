@@ -35,19 +35,19 @@ During vehicle testing, one wheel initially failed to operate correctly. I syste
 - Whole Vehicle
 
 <p align="center">
-  <img src="images/Whole%20Vehicle.png" width="900">
+  <img src="images/Whole%20Vehicle.png" width="500">
 </p>
 
 - Control Hardware
 
 <p align="center">
-  <img src="images/Control%20Hardware.png" width="900">
+  <img src="images/Control%20Hardware.png" width="500">
 </p>
 
 - 8-inch Mecanum Wheel
 
 <p align="center">
-  <img src="images/Mecanum%20Wheel.png" width="900">
+  <img src="images/Mecanum%20Wheel.png" width="500">
 </p>
 
 ### Testing
